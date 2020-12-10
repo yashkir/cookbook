@@ -1,0 +1,11 @@
+[Unit]
+Description=sample
+After=network.target
+
+[Service]
+User=yashkir
+#WorkingDirectory=
+ExecStart=/usr/bin/python -m http.server 8989
+
+[Install]
+WantedBy=multi-user.target
