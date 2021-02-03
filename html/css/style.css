@@ -1,0 +1,24 @@
+body {
+  line-height: 1.25em;
+  font-family: sans-serif;
+}
+
+#centered-block {
+  margin: 0 auto;
+  padding: 1em; 
+  max-width: 762px;
+}
+
+#menubar a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+#menubar a:hover {
+  text-decoration: underline;
+}
+
+#menubar a:visited {
+  color: blue;
+}
